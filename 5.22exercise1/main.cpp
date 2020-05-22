@@ -16,6 +16,7 @@ int main()
 		Mat grayMat;
 		capVideo >> frame;
 		cvtColor(frame, frame, COLOR_BGR2GRAY);
+
 		if (cnt == 0)
 		{
 			frame.copyTo(bgMat);
